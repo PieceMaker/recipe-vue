@@ -1,0 +1,9 @@
+# Build artifacts
+.cache/
+dist/
+
+# NPM artifacts
+node_modules/
+
+# Webstorm artifacts
+.idea/

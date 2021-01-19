@@ -1,0 +1,33 @@
+{
+  "name": "recipe-vue",
+  "version": "1.0.0",
+  "description": "Recipe website written in Vue.js.",
+  "main": "server.js",
+  "scripts": {
+    "clean": "rm -rf ./dist/* ; rm -rf .cache",
+    "copy": "cp -r client/static dist/",
+    "build": "npm run clean && parcel build --public-url . client/index.html",
+    "watch": "npm run clean && parcel watch client/index.html",
+    "start": "DEBUG=true node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PieceMaker/recipe-vue.git"
+  },
+  "author": "Jonathan Adams",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "@web-types/bootstrap-vue": "^2.0.0-1",
+    "bootstrap-vue": "^2.21.2",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.1.3",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.9",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
