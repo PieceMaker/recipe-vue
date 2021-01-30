@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    Home page content goes here.
+    <b-card>
+      Home page content goes here.
+    </b-card>
   </div>
 </template>
 

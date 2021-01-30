@@ -1,12 +1,24 @@
 <template>
-  <div id="app">
+  <div class="app">
     <site-header></site-header>
-    <router-view></router-view>
+    <b-container>
+      <b-row>
+        <b-col>
+          <router-view></router-view>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
+  .app {
+    .container {
+      padding-bottom: 50px;
+      padding-top: 50px;
+      height: calc(100vh - 56px);
+    }
+  }
 </style>
 
 <script>
