@@ -8,6 +8,7 @@
         </b-col>
       </b-row>
     </b-container>
+    <site-footer></site-footer>
   </div>
 </template>
 
@@ -25,9 +26,11 @@
 
   // Components
   import SiteHeader from './components/header.vue';
+  import SiteFooter from './components/footer.vue';
 
   export default {
     components: {
+      SiteFooter,
       SiteHeader
     }
   }
