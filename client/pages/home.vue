@@ -31,20 +31,30 @@
         <p>Interdum posuere lorem ipsum dolor sit amet.</p>
       </b-carousel-slide>
     </b-carousel>
+    <b-input-group id="home-search" class="mx-auto w-50">
+      <b-form-input v-model="search" placeholder="Search recipes"></b-form-input>
+      <b-input-group-append>
+        <b-button variant="dark">Search</b-button>
+      </b-input-group-append>
+    </b-input-group>
   </div>
 </template>
+
+<style scoped>
+  #home-search {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+</style>
 
 <script>
   export default {
     name: "home",
     data() {
       return {
-        slide: 0
+        slide: 0,
+        search: ''
       }
     }
   }
 </script>
-
-<style scoped>
-
-</style>
