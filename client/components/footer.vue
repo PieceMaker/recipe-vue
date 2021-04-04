@@ -8,10 +8,12 @@
 
 <style scoped>
   .site-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: #E8E8E8;
     height: 60px;
     line-height: 60px;
-    /*text-align: center;*/
   }
 </style>
 
