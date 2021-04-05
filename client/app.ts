@@ -7,6 +7,7 @@ import AppComponent from './app.vue';
 
 // Pages
 import Home from './pages/home.vue';
+import Recipe from './pages/recipe.vue';
 
 // ---------------------------------------------------------------------------------------------------------------------
 // Bootstrap Vue
@@ -38,6 +39,7 @@ const router = new VueRouter({
     mode: 'history',
     routes: [
         { path: '/home', name: 'Home', component: Home },
+        { path: '/recipe', name: 'Recipe', component: Recipe },
         { path: '/', name: 'Home', component: Home }
     ]
 });
