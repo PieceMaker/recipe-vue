@@ -8,6 +8,14 @@
       <h4 style="display: inline;">- Author</h4>
       <p class="text-muted">Published/Updated: 10/31/20XX</p>
     </div>
+    <b-card no-body class="text-center w-50 mx-auto" id="description">
+      <div class="bg-secondary text-light">
+        <i>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Suspendisse potenti nullam ac tortor vitae purus. Ultricies integer quis auctor elit sed.
+        </i>
+      </div>
+    </b-card>
   </div>
 </template>
 
